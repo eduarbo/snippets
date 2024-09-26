@@ -3,10 +3,10 @@
 # name: React component
 # key: component
 # --
-import { Component } from 'react';
+import { Component } from 'react'`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
 
 const ${1:`(f-base buffer-file-name)`} = (props) => (
   $0
-);
+)`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
 
-export default $1;
+export default $1`(when (and (bound-and-true-p my/semi) (eolp)) ";")`

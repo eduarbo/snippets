@@ -3,19 +3,19 @@
 # name: Redux container
 # key: container
 # --
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'`(when (bound-and-true-p my/semi) ";")`
 
 const mapStateToProps = (state, ownProps) => ({
   $0
-});
+})`(when (bound-and-true-p my/semi) ";")`
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
 
-});
+})`(when (bound-and-true-p my/semi) ";")`
 
 const ${1:`(f-base buffer-file-name)`} = connect(
   mapStateToProps,
   mapDispatchToProps
-)(${2:Component});
+)(${2:Component})`(when (bound-and-true-p my/semi) ";")`
 
-export default $1;
+export default $1`(when (bound-and-true-p my/semi) ";")`

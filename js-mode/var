@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: var ... = ...;
+# name: var ... = ...
 # key: var
 # uuid: var
 # --
-var ${1:name} = ${0:`%`};
+var ${1:name} = ${0:`%`}`(when (and (bound-and-true-p my/semi) (eolp)) ";")`

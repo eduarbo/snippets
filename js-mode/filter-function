@@ -4,5 +4,5 @@
 # uuid: filfu
 # --
 `(unless (eq (char-before) ?.) ".")`filter(function(${1:item}) {
-    `(doom-snippets-format "%n%s%n")`$0
-})`(if (eolp) ";")`
+  `(doom-snippets-format "%n%s%n")`$0
+})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`

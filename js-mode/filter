@@ -3,4 +3,4 @@
 # key: fil
 # uuid: fil
 # --
-`(unless (eq (char-before) ?.) ".")`filter($0)`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`filter($0)`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
