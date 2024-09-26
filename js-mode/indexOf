@@ -3,4 +3,4 @@
 # key: iof
 # uuid: iof
 # --
-`(unless (eq (char-before) ?.) ".")`indexOf(${1:`(or (doom-snippets-text nil t) "elt")`}${2: ${3:fromIndex}})`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`indexOf(${1:`(or (doom-snippets-text nil t) "elt")`}, ${2:fromIndex})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`

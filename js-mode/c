@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: const ... = ...
+# key: c
+# type: command
+# --
+(doom-snippets-expand :uuid "con")

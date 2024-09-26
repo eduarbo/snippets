@@ -2,4 +2,4 @@
 # name: require("...")
 # uuid: require
 # --
-require(`%`$0)`(if (eolp) ";")`
+require(`%`$0)`(when (and (bound-and-true-p my/semi) (eolp)) ";")`

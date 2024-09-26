@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: import ... from ...;
+# name: import ... from ...
 # uuid: imp
 # type: command
 # --

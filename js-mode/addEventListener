@@ -5,4 +5,4 @@
 # --
 `(unless (eq (char-before) ?.) ".")`addEventListener('${1:DOMContentLoaded}', () => {
   `%`$0
-})`(if (eolp) ";")`
+})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
