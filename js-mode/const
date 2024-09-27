@@ -3,4 +3,4 @@
 # key: con
 # uuid: con
 # --
-const ${1:name} = ${0:`%`}`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+const ${1:name} = ${0:`%`}`(doom-snippets-maybe-semi)`

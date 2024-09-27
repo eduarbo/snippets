@@ -3,11 +3,11 @@
 # name: action
 # key: action
 # --
-const ${1:$(upcase (s-snake-case yas-text))} = '${1:$(upcase (s-snake-case yas-text))}'`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+const ${1:$(upcase (s-snake-case yas-text))} = '${1:$(upcase (s-snake-case yas-text))}'`(doom-snippets-maybe-semi)`
 
 export const ${1:actionName} = (${2:args}) => ({
   type: '${1:$(upcase (s-snake-case yas-text))}',
   payload: {
     $0
   },
-})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+})`(doom-snippets-maybe-semi)`

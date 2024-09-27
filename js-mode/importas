@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: import * as ...
+# uuid: importas
 # --
-import * as ${1:Object} from '${2:./$3}'`(when (bound-and-true-p my/semi) ";")`
+import * as ${1:Object} from '${2:./$3}'`(doom-snippets-maybe-semi)`

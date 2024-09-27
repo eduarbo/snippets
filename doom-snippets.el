@@ -36,6 +36,9 @@
 + `%format' = `doom-snippets-format'
 + `%without-trigger' = `doom-snippets-without-trigger'")
 
+(defvar doom-snippets-js-semi nil
+  "Controls semicolon insertion in JavaScript snippets.")
+
 ;;;###autoload
 (defun doom-snippets-remove-compiled-snippets ()
   "Delete all .yas-compiled-snippets.el files."
@@ -56,6 +59,13 @@ yasnippet directory."
 ;;;###autoload
 (eval-after-load 'yasnippet
   (lambda () (doom-snippets-initialize)))
+
+
+;;;###autoload
+(defun doom-snippets-maybe-semi ()
+  "Inserts a semicolon if the `my/semi` variable is bound."
+  (when (and (bound-and-true-p doom-snippets-js-semi) (eolp))
+    ";"))
 
 (provide 'doom-snippets)
 ;;; doom-snippets.el ends here

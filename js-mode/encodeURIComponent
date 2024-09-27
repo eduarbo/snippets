@@ -3,4 +3,4 @@
 # key: euc
 # uuid: euc
 # --
-encodeURIComponent(${1:`%`})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+encodeURIComponent(${1:`%`})`(doom-snippets-maybe-semi)`

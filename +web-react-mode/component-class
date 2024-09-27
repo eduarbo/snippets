@@ -3,14 +3,14 @@
 # name: React component class
 # key: component-class
 # --
-import { Component } from 'react'`(when (bound-and-true-p my/semi) ";")`
+import { Component } from 'react'`(doom-snippets-maybe-semi)`
 
 class ${1:`(f-base buffer-file-name)`} extends Component {
   render() {
     return (
       $0
-    )`(when (bound-and-true-p my/semi) ";")`
+    )`(doom-snippets-maybe-semi)`
   }
 }
 
-export default $1`(when (bound-and-true-p my/semi) ";")`
+export default $1`(doom-snippets-maybe-semi)`

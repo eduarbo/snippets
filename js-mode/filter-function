@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: arr.filter(function(item) {...})
-# key: filfu
-# uuid: filfu
+# key: filf
+# uuid: filf
 # --
 `(unless (eq (char-before) ?.) ".")`filter(function(${1:item}) {
   `(doom-snippets-format "%n%s%n")`$0
-})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+})`(doom-snippets-maybe-semi)`

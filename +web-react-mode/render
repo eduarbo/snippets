@@ -3,4 +3,4 @@
 # key: rren
 # uuid: rren
 # --
-ReactDOM.render(<${1:ComponentName} />, document.${2:body})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+ReactDOM.render(<${1:ComponentName} />, document.${2:body})`(doom-snippets-maybe-semi)`

@@ -3,4 +3,4 @@
 # key: eu
 # uuid: eu
 # --
-encodeURI(${1:`%`})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+encodeURI(${1:`%`})`(doom-snippets-maybe-semi)`

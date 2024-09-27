@@ -5,4 +5,4 @@
 # --
 useEffect(() => {
   $0
-})`(when (bound-and-true-p my/semi) ";")`
+})`(doom-snippets-maybe-semi)`
