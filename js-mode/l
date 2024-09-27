@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: let ... = ...
+# uuid: l
+# type: command
+# --
+(doom-snippets-expand :uuid "let")

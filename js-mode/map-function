@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: arr.map(function(item, i, arr) {...})
-# key: mapfu
-# uuid: mapfu
+# key: mapf
+# uuid: mapf
 # --
 `(unless (eq (char-before) ?.) ".")`map(function(${1:item}, ${2:i}, ${3:arr}) {
   `(doom-snippets-format "%n%s%n")`$0
-})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+})`(doom-snippets-maybe-semi)`

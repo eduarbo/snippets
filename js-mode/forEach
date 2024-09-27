@@ -3,4 +3,4 @@
 # key: fore
 # uuid: fore
 # --
-`(unless (eq (char-before) ?.) ".")`forEach(`%`$0)`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+`(unless (eq (char-before) ?.) ".")`forEach(`%`$0)`(doom-snippets-maybe-semi)`

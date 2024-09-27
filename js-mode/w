@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: while
+# uuid: w
+# type: command
+# --
+(doom-snippets-expand :uuid "while")

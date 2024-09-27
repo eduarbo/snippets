@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: React component with default export
+# key: componentDefault
+# --
+const ${1:`(f-base buffer-file-name)`} = (props) => (
+  $0
+)`(doom-snippets-maybe-semi)`
+
+export default $1`(doom-snippets-maybe-semi)`

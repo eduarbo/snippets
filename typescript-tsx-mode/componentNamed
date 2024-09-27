@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: TSX React component with named exports
+# key: componentNamed
+# --
+interface ${1:`(file-name-base buffer-file-name)`}PropTypes {
+
+}
+
+const $1 = (props: $1PropTypes) => (
+  $0
+)`(doom-snippets-maybe-semi)`
+
+export { $1 }`(doom-snippets-maybe-semi)`

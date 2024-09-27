@@ -3,4 +3,4 @@
 # key: al
 # uuid: al
 # --
-alert(${0:`%`})`(when (and (bound-and-true-p my/semi) (eolp)) ";")`
+alert(${0:`%`})`(doom-snippets-maybe-semi)`

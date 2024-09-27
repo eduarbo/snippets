@@ -3,4 +3,4 @@
 # uuid: exports
 # key: exp
 # --
-module.exports = `%`$0`(when (bound-and-true-p my/semi) ";")`
+module.exports = `%`$0`(doom-snippets-maybe-semi)`
