@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: useEffect
-# key: ue
+# uuid: ue
 # type: command
 # --
-(doom-snippets-expand :name "useEffect")
+(doom-snippets-expand :uuid "useEffect")
